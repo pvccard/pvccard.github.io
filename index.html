@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UIDAI Aadhaar | Download, Update & Check Status Online @uidai.gov.in/</title>
+    <meta name="description" content="Access official UIDAI services. Login to My Aadhaar to download your card, update demographic data, or track status instantly">
+    <meta name="keywords" content="uidai, my aadhar, my adhar, aadhar card download, aadhar card, aadhar, aadhaar download, uidai login, aadhaar, eaadhar, aadhar uidai gov in, uidai gov in, adhaar card, adhar card update, adhar card download">
+    <meta name="robots" content="index, follow">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Aadhaar UIDAI</title>
+    <style>
+        /* --- CSS STYLES --- */
+        :root {
+            --primary-color: #0056b3; /* Government-style Blue */
+            --secondary-color: #f4f4f4;
+            --text-color: #333;
+            --accent-color: #e67e22;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: var(--text-color);
+        }
+
+        a { text-decoration: none; color: inherit; }
+
+        /* --- UPDATED HEADER FOR TOGGLE --- */
+        .navbar {
+            background-color: var(--primary-color) !important;
+            padding: 1rem 5% !important;
+        }
+
+        .navbar-brand { 
+            font-size: 1.5rem !important; 
+            font-weight: bold !important; 
+            color: white !important;
+        }
+        
+        .navbar-brand img { height: 40px; margin-right: 10px; }
+
+        .nav-link {
+            color: white !important;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+
+        .nav-link:hover { color: var(--accent-color) !important; }
+
+        .tagline {
+            font-size: 0.75rem; /* Smaller font for the tagline */
+            font-weight: bold;   /* Normal weight to contrast with Bold "Bhoomi" */
+            color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+            margin-top: 4px;
+            letter-spacing: 0.3px;
+            display: block;
+}
+
+        /* --- HERO SECTION --- */
+        .hero {
+            background-color: var(--secondary-color);
+            padding: 3rem 5%;
+            text-align: center;
+        }
+
+        .hero h1 { margin-bottom: 1rem; color: var(--primary-color); font-weight:bold; font-size:2rem; }
+        .hero p { max-width: 800px; margin: 0 auto; font-size: 1.1rem; }
+
+        /* --- SERVICE BUTTONS --- */
+        .services {
+            padding: 2rem 5%;
+            text-align: center;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .service-btn {
+            background-color: white;
+            border: 2px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            color: var(--primary-color);
+            transition: 0.3s;
+            display: block;
+        }
+
+        .service-btn:hover {
+            background-color: var(--primary-color);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* --- BLOG SECTION --- */
+        .blog-section {
+            padding: 2rem 5%;
+            background-color: #fff;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .blog-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .blog-content { padding: 15px; }
+        .blog-title { font-size: 1.2rem; font-weight: bold; margin-bottom: 10px; color: var(--primary-color);}
+        .read-more { color: var(--accent-color); font-weight: bold; font-size: 0.9rem;}
+
+        .faq-card {
+            border-bottom: 1px solid #eee;
+            padding: 20px 0;
+        }
+        .faq-card h4 {
+            color: #000000;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        .faq-card p {
+            margin: 5px 0;
+        }
+        .highlight {
+            background-color: #fcf8e3;
+            padding: 10px;
+            border-left: 4px solid #8a6d3b;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 16px;
+            text-align: left;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+       
+         body {
+  -webkit-user-select: none !important; /* Chrome, Safari */
+  -moz-user-select: none !important;   /* Firefox */
+  -ms-user-select: none !important;    /* Internet Explorer/Edge */
+  user-select: none !important;        /* Standard */
+}
+
+        /* --- FOOTER --- */
+        footer {
+            background-color: #222;
+            color: #ccc;
+            padding: 2rem 5%;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .footer-links { margin-bottom: 1.5rem; }
+        .footer-links a { margin: 0 10px; color: #fff; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid p-0">
+            <a class="navbar-brand" href="https://bhoomirtc.net/">
+                <div class="d-inline-flex flex-column align-items-start" style="line-height: 1;">
+                    <span>Aadhaar UIDAI</span>
+                    <span class="tagline">Access all Services Related to Aadhaar</span>
+                </div>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item d-lg-none"><hr class="text-white-50"></li>
+                    <li class="nav-item"><a class="nav-link" href="https://uidai.gov.in" target="_blank">UIDAI</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://myaadhaar.uidai.gov.in/" target="_blank">myAadhaar Portal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://bhuvan.nrsc.gov.in/aadhaar/" target="_blank">Locate Enrollment Center</a>
+                </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <section class="hero">
+        <h1>UIDAI Aadhaar Card : Download, Update & Check Status Online @uidai.gov.in</h1>
+        <p>
+            The Unique Identification Authority of India (UIDAI) is a statutory authority established under the provisions of the Aadhaar Act, 2016. It was created to issue Unique Identification numbers (UID), named "Aadhaar", to all residents of India. This website serves as an informational blog to help you navigate the official services.
+        </p>
+    </section>
+
+    <section class="services">
+        <h2>Quick Services</h2>
+        <p>Click below to visit the official UIDAI portal for specific tasks:</p>
+        <div class="service-grid">
+            <a href="https://myaadhaar.uidai.gov.in/genricDownloadAadhaar" target="_blank" class="service-btn">Download Aadhaar</a>
+            <a href="https://myaadhaar.uidai.gov.in/CheckAadhaarStatus" target="_blank" class="service-btn">Check Status</a>
+            <a href="https://appointments.uidai.gov.in/bookappointment.aspx" target="_blank" class="service-btn">Book Appointment</a>
+            <a href="https://bhuvan.nrsc.gov.in/aadhaar/" target="_blank" class="service-btn">Locate Enrollment Center</a>
+            <a href="https://myaadhaar.uidai.gov.in/" target="_blank" class="service-btn">Order PVC Aadhaar Card</a>
+            <a href="https://myaadhaar.uidai.gov.in/du/en_IN" target="_blank" class="service-btn">Update Aadhaar</a>
+            <a href="https://myaadhaar.uidai.gov.in/" target="_blank" class="service-btn">Lock/Unlock Aadhaar</a>
+            <a href="https://myaadhaar.uidai.gov.in/" target="_blank" class="service-btn">Verify Email/Mobile</a>
+            <a href="https://myaadhaar.uidai.gov.in/" target="_blank" class="service-btn">Document Update</a>
+            <a href="https://uidai.gov.in/" target="_blank" class="service-btn">UIDAI Portal</a>
+
+        </div>
+    </section>
+    <section class="blog-section">
+        <p>The Unique Identification Authority of India (UIDAI) has revolutionized how identity is verified in India. Established under the Ministry of Electronics and Information Technology (MeitY), the Aadhaar project is the world's largest biometric ID system. As of 2026, Aadhaar is not just a card; it is the backbone of the "Digital India" initiative, facilitating a seamless interface between the government and the residents.This Aadhaar UIDAI delves deep into every aspect of the Aadhaar ecosystem, ensuring you can navigate downloads, updates, and troubleshooting without needing to visit an enrollment center unnecessarily.
+        </p>
+        <ul>
+            <li><strong>Direct Benefit Transfer (DBT):</strong> Receiving LPG subsidies, PM-KISAN installments, and scholarships directly.</li>
+            <li><strong>Income Tax Compliance:</strong> Linking Aadhaar with PAN is mandatory for filing IT returns.</li>
+            <li><strong>Identity Verification (e-KYC):</strong> Instant activation of SIM cards and opening bank accounts.</li>
+            <li><strong>DigiYatra:</strong> Seamless, paperless entry at airports using facial recognition.</li>
+            <li><strong>Examination Services:</strong> Verification for competitive exams like JEE, NEET, and UPSC.</li>
+        </ul>
+        <h3>How to Download e-Aadhaar</h3>
+<p>Carrying a physical card is no longer necessary. The e-Aadhaar is a digitally signed, legally valid PDF.</p>
+<div class="my-4 text-center">
+    <img src="masked.webp" 
+         alt="Regular and Masked Aadhaar" 
+         class="img-fluid rounded shadow-sm" 
+         style="max-height: 400px; width: auto; border: 1px solid #ddd;">
+</div>
+<ul>
+    <li><strong>Quick Download:</strong> Visit the MyAadhaar Portal (myaadhaar.uidai.gov.in) and enter your Aadhaar Number or VID.</li>
+    <li><strong>Regular Version:</strong> Shows your full 12-digit number (Ideal for Banking/Govt).</li>
+    <li><strong>Masked Version:</strong> Hides the first 8 digits (Ideal for Hotels/Travel privacy).</li>
+    <li><strong>PDF Password:</strong> First 4 letters of your name (CAPS) + Year of Birth (e.g., RAVI1990).</li>
+</ul>
+
+<h3>Mandatory Document Update</h3>
+<p>If your Aadhaar was issued more than 10 years ago, you must "re-verify" it to keep your records active.</p>
+<ul>
+    <li><strong>Free Deadline:</strong> Extended until 14 June 2026 for all online updates.</li>
+    <li><strong>Why Update:</strong> Ensures bank KYC, Ration card, and PAN links remain functional.</li>
+    <li><strong>Online Only:</strong> Free via the portal. Physical centers charge a fee of ₹50.</li>
+    <li><strong>Requirements:</strong> Upload Proof of Identity (PAN/Voter ID) and Proof of Address (Bills/Rent Agreement).</li>
+</ul>
+
+<h3>How to Check Your Aadhaar Status Instantly</h3>
+<p>You no longer need to visit a center to track your application progress.</p>
+<ul>
+    <li><strong>Aadhaar Mitra:</strong> Use the AI Chatbot on the UIDAI site for instant replies via Enrollment ID (EID).</li>
+    <li><strong>URN Tracking:</strong> Enter your Update Request Number on the "Check Status" page.</li>
+    <li><strong>Completed Status:</strong> Download your new card immediately once the status shows "Completed".</li>
+    <li><strong>Rejected Status:</strong> Review the mismatch reason provided and re-upload documents.</li>
+</ul>
+<h3>Order the Official Aadhaar PVC Card (₹50 Only)</h3>
+<p>Stop using laminated paper copies. UIDAI now issues a secure, weather-proof PVC Aadhaar Card that fits in your wallet like an ATM card.</p>
+<div class="my-4 text-center">
+    <img src="pvc.webp" 
+         alt="Aadhaar PVC Card" 
+         class="img-fluid rounded shadow-sm" 
+         style="max-height: 400px; width: auto; border: 1px solid #ddd;">
+</div>
+<ul>
+    <li><strong>Durable & Secure:</strong> Waterproof and tear-resistant. Contains a digitally signed QR code, hologram, and ghost image.</li>
+    <li><strong>Legally Valid:</strong> This is the official version issued by UIDAI and is accepted everywhere in India.</li>
+    <li><strong>Order Process:</strong> Go to the MyAadhaar Portal and click "Order Aadhaar PVC Card" using your 12-digit UID.</li>
+    <li><strong>No Registered Mobile?</strong> You can use any alternate mobile number to receive the OTP for the order.</li>
+    <li><strong>Fee & Delivery:</strong> Pay ₹50 online (UPI/Card). The card is delivered to your registered address via Speed Post within 5-10 days.</li>
+</ul>
+
+
+
+<h3>Lost Your Aadhaar? Retrieve Your Number Instantly</h3>
+<p>If you lost your card and don't remember your 12-digit number, do not enroll again. You can recover it online in minutes.</p>
+<div class="my-4 text-center">
+    <img src="retrieve.webp" 
+         alt="Retrieve Aadhaar UID EID Online" 
+         class="img-fluid rounded shadow-sm" 
+         style="max-height: 400px; width: auto; border: 1px solid #ddd;">
+</div>
+<ul>
+    <li><strong>Retrieve EID/UID:</strong> Visit the portal and select "Retrieve EID/UID".</li>
+    <li><strong>Exact Details:</strong> Enter your full name exactly as it appears on your Aadhaar records.</li>
+    <li><strong>Verification:</strong> Provide your registered Mobile Number or Email Address to receive an OTP.</li>
+    <li><strong>SMS Delivery:</strong> Once verified, your Aadhaar Number (UID) is sent immediately to your phone via SMS.</li>
+    <li><strong>Next Step:</strong> Use the retrieved number to download your digital e-Aadhaar PDF.</li>
+</ul>
+
+<h3>Skip the Queue: Book an Appointment Online</h3>
+<p>Biometric updates (Photo/Fingerprints) and Mobile linking require a physical visit. Book a slot to save time.</p>
+<ul>
+    <li><strong>Guaranteed Slot:</strong> Avoid long queues and the risk of being turned away due to crowds.</li>
+    <li><strong>Aadhaar Seva Kendra (ASK):</strong> Visit <em>appointments.uidai.gov.in</em> to find a state-of-the-art center in your city.</li>
+    <li><strong>Process:</strong> Log in with your mobile number, select your city, and pick a preferred Date and Time slot.</li>
+    <li><strong>Appointment Slip:</strong> Download and carry the slip to the center to go directly to the verification counter.</li>
+</ul>
+
+        <h3>Aadhaar Online Services</h3>
+        <table>
+            <tr><th>Service</th><th>Description</th></tr>
+            <tr><td><strong>A. Download Aadhaar (e-Aadhaar)</strong></td><td>Digitally signed and valid under IT Act. Use "Masked Aadhaar" (last 4 digits) for hotel check-ins to protect privacy.</td></tr>
+            <tr><td><strong>B. Retrieve EID / Aadhaar</strong></td><td>Retrieve lost EID/UID via name and registered mobile number/email.</td></tr>
+            <tr><td><strong>C. Verify Email/Mobile</strong></td><td>Check if your contact info is verified with official records.</td></tr>
+        </table>
+
+        <h3>Aadhaar Document Update Initiative</h3>
+        <p>UIDAI mandates re-verifying POI/POA if Aadhaar was issued over 10 years ago.</p>
+        <div class="highlight">
+            <strong>The Deadline:</strong> Free of cost until <strong>14/06/2026</strong>. After this, a ₹50 fee applies.
+            <br><strong>Common Rejections:</strong> Name Mismatch (e.g. V. Priya vs Vishnu Priya), blurry images, or expired documents.
+        </div>
+
+        <h3>Aadhaar PVC Card: Security Features</h3>
+        <p>The Aadhaar PVC Card is a durable, weather-proof official version with high-end security features:</p>
+        
+        <table>
+            <tr><td>Secure QR Code</td><td>3D Hologram</td><td>Micro Text</td></tr>
+            <tr><td>Ghost Image</td><td>Guilloche Pattern</td><td>Embossed Aadhaar Logo</td></tr>
+        </table>
+        <p><strong>Order Process:</strong> Pay ₹50 via MyAadhaar. Delivered via Speed Post within 5 working days.</p>
+
+        <h3>Baal Aadhaar: Aadhaar For Children</h3>
+        <table>
+            <tr><th>Type</th><th>Age</th><th>Details</th></tr>
+            <tr><td><strong>Blue Aadhaar</strong></td><td>0 to 5 Years</td><td>No biometrics captured; linked to parent.</td></tr>
+            <tr><td><strong>Mandatory Update</strong></td><td>At 5 & 15 Years</td><td>Full biometrics required. <strong>FREE</strong> of cost.</td></tr>
+        </table>
+
+        <h3>Biometric Locking & Unlocking</h3>
+        <p>Prevents misuse. When locked, authentication fails with error <strong>"330 - Biometrics Locked."</strong> Use the MyAadhaar portal to unlock temporarily for 10 minutes or permanently.</p>
+
+        <h3>mAadhaar App: Your Digital Identity Wallet</h3>
+        <div class="my-4 text-center">
+    <img src="madhaar.webp" 
+         alt="mAadhaar App Screenshot" 
+         class="img-fluid rounded shadow-sm" 
+         style="max-height: 400px; width: auto; border: 1px solid #ddd;">
+</div>
+        <ul>
+            <li><strong>Multi-Profile:</strong> Up to 3 family members on one device.</li>
+            <li><strong>QR Sharing:</strong> Secure e-KYC without physical copies.</li>
+            <li><strong>ID Proof:</strong> Valid for domestic air travel.</li>
+        </ul>
+
+        <h3>Troubleshooting Aadhaar Issues</h3>
+        <ul>
+            <li><strong>"Duplicate Found":</strong> Your biometrics exist already. Call 1947.</li>
+            <li><strong>Biometric Mismatch:</strong> Update biometrics at a center or use iris/face auth.</li>
+            <li><strong>Request Rejected:</strong> Check the rejection reason code and fix documents.</li>
+        </ul>
+
+        <h3>Booking an Appointment (ASK)</h3>
+        <p>Book via <strong>appointments.uidai.gov.in</strong> to avoid queues. Aadhaar Seva Kendras (ASK) offer superior infrastructure and token systems.</p>
+
+        <h3>Aadhaar Mitra: The AI Chatbot</h3>
+        <p>An AI-based chatbot on the UIDAI site supporting multiple regional languages. Use it to check status or track PVC delivery.</p>
+
+        <h3>Linking Aadhaar with PAN</h3>
+        <p>Mandatory for tax purposes. If not linked, PAN becomes inoperative and higher TDS rates apply. A late fee of ₹1,000 applies.</p>
+
+        <h3>Aadhaar Enabled Payment System (AePS)</h3>
+        <p>Allows banking (Withdrawal, Deposit, Statements) via Bank Name, Aadhaar Number, and Fingerprint at PoS machines. <em>Safety Tip: Lock biometrics if not using AePS.</em></p>
+
+        <h3>Detailed List of Accepted Documents (2026)</h3>
+        <table>
+            <tr><th>Category</th><th>Documents</th></tr>
+            <tr><td><strong>Identity (PoI)</strong></td><td>Passport, PAN, Voter ID, Driving License, UDID Card.</td></tr>
+            <tr><td><strong>Address (PoA)</strong></td><td>Bank Passbook, Bills (<3 mo), Rent Agreement, Property Tax Receipt.</td></tr>
+            <tr><td><strong>Birth (DoB)</strong></td><td>Birth Certificate, Passport, Marksheet, PPO.</td></tr>
+        </table>
+
+        <h3>Grievance Redressal</h3>
+        <table>
+            <tr><td><strong>Toll-Free:</strong></td><td>1947 (12 languages)</td></tr>
+            <tr><td><strong>Email:</strong></td><td>help@uidai.gov.in</td></tr>
+            <tr><td><strong>Public Portal:</strong></td><td>pgportal.gov.in</td></tr>
+        </table>
+    </section>
+
+    <section class="blog-section" id="faqs"><h3>Frequently Asked Questions (FAQs)</h3>
+
+        <div class="faq-container">
+            <div class="faq-card">
+                <h4>1. Can someone hack my Bank Account if they know my Aadhaar Number?</h4>
+                <p><strong>Concern:</strong> With Aadhaar linked to bank accounts, many fear that sharing the 12-digit number makes them vulnerable to theft.</p>
+                <p><strong>Answer:</strong> Just knowing your Aadhaar number is NOT enough to hack your bank account. A financial transaction requires a second layer of authentication—either your OTP (sent to your phone) or your Biometrics (fingerprint/iris).</p>
+                <div class="highlight">
+                    <strong>Safety Tip:</strong> To be 100% safe, use the "Biometric Lock" feature in the MyAadhaar app. This ensures that even if a scammer clones your fingerprint (for AePS fraud), the transaction will fail.
+                </div>
+            </div>
+
+            <div class="faq-card">
+                <h4>2. I lost my registered mobile number. Can I update it online to get the OTP?</h4>
+                <p><strong>Concern:</strong> Users are locked out of the MyAadhaar portal because they no longer possess the SIM card linked to their Aadhaar.</p>
+                <p><strong>Answer:</strong> No. You cannot update your mobile number online. This is a strict security measure to prevent identity theft.</p>
+                <p><strong>Solution:</strong> You must physically visit the nearest Aadhaar Enrollment Center. You do not need documents to update your mobile number; only carry your Aadhaar card. Update takes 24-48 hours.</p>
+            </div>
+
+            <div class="faq-card">
+                <h4>3. I have already updated my Name/DOB once. Can I change it again?</h4>
+                <p><strong>The Answer:</strong> UIDAI has strict lifetime limits on demographic updates:</p>
+                <table>
+                    <tr><td><strong>Name</strong></td><td>Max 2 times</td></tr>
+                    <tr><td><strong>Gender</strong></td><td>Only 1 time</td></tr>
+                    <tr><td><strong>Date of Birth</strong></td><td>Only 1 time</td></tr>
+                </table>
+                <p><strong>The Solution for Limit Exceeded:</strong> You must visit a UIDAI Regional Office in person with valid proofs and apply through the "Exception Handling Process."</p>
+            </div>
+
+            <div class="faq-card">
+                <h4>4. My Aadhaar is linked to my bank, but I am not receiving Government Subsidies (DBT). Why?</h4>
+                <p><strong>Answer:</strong> Simply giving your Aadhaar copy to the bank is not enough. You must specifically request the bank to "Map Aadhaar to NPCI" (National Payments Corporation of India).</p>
+                <p><strong>Solution:</strong> Visit your bank branch and submit a "DBT Mandate Form." Government money only goes to the bank account mapped with NPCI.</p>
+            </div>
+
+            <div class="faq-card">
+                <h4>5. How do I know if my Aadhaar is still active? Can it be deactivated?</h4>
+                <p><strong>Answer:</strong> Yes, Aadhaar can be deactivated if biometrics are not updated for children, or if mixed biometrics are detected.</p>
+                <p><strong>Solution:</strong> Use the "Verify Aadhaar" service on the UIDAI website. Enter your number; if it shows a green tick, your Aadhaar is active.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/privacy-policy.html">Privacy Policy</a>
+            <a href="/contact.html">Contact Us</a>
+            <a href="/disclaimer.html">Disclaimer</a>
+        </div>
+        
+        <div class="disclaimer-box">
+            <strong>Disclaimer:</strong> This is a private informational blog and is NOT an official website of the UIDAI or the Government of India. We do not collect any user data. All links provided above are official government portal (uidai.gov.in) for your convenience. Please visit the official site for all authentic services.
+        </div>
+        
+        <p style="margin-top: 15px; font-size: 0.8rem;">&copy; 2026 Aadhaar UIDAI. All Rights Reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
