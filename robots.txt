@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://uidaiadharcard.com/sitemap.xml
+
+Sitemap: https://aadhaaruidaigov.com/sitemap.xml
